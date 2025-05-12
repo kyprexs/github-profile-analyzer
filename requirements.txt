@@ -1,0 +1,4 @@
+# Requirements for GitHub Profile Analyzer
+python-dotenv  # Load environment variables from .env
+requests       # HTTP requests to GitHub API
+colorama       # Colored console output 
