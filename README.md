@@ -54,7 +54,8 @@ python main.py <github-username> --format md --output report.md
 > **Note:** If you do not provide a token, the tool will still work for public data, but with lower rate limits (60 requests/hour per IP). For best results, add your own token to `.env`.
 
 ## Example Output
-![screenshot or example output here]
+
+![Example Output](screenshot.png)
 
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
