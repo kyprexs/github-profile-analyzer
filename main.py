@@ -185,3 +185,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # Prevent window from closing immediately if run by double-clicking (Windows)
+    import sys
+    if sys.stdin.isatty() and sys.stdout.isatty():
+        input("Press Enter to exit...")
